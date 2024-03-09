@@ -40,14 +40,20 @@ main {
     padding: 2rem;
 }
 
-article {
-}
-
-
 .presentation-FAQS {
     font-size: 2rem;
     display: flex;
     align-items: center;
     gap: 2rem;
 }
+
+
+
+.accordion-questions {
+    background-color: var(--white);
+    cursor: pointer;
+    text-align: left;
+    border: none;
+    margin: 1rem 0rem;
+  }
 
