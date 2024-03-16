@@ -49,9 +49,6 @@ main {
     gap: 2rem;
 }
 
-.accordion-content-title {
-    cursor: pointer;
-}
 
 .accordion-content {
     background-color: var(--white);
@@ -61,6 +58,8 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    cursor: pointer;
+
   }
 
 .accordion-content-description{ 
