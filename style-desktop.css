@@ -35,11 +35,10 @@ body {
 main {
     background-color: var(--white);
     width: 45rem;
-    height: 45rem;
+    height: 40rem;
     border-radius: 2%;
     padding: 2rem;
 }
-
 
 
 .presentation-FAQS {
