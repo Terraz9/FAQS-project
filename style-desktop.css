@@ -47,13 +47,23 @@ main {
     gap: 2rem;
 }
 
-
-
-.accordion-questions {
-    background-color: var(--white);
+.accordion-content-title {
     cursor: pointer;
+}
+
+.accordion-content {
+    background-color: var(--white);
     text-align: left;
-    border: none;
     margin: 1rem 0rem;
+    overflow: hidden;
   }
 
+.accordion-content-description{ 
+    height: 0;
+    color:#000000; 
+    font-weight: 400; 
+}
+
+.accordion-content-description.is-open{ 
+    height: auto;
+}
