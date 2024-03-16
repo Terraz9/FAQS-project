@@ -34,8 +34,8 @@ body {
 
 main {
     background-color: var(--white);
-    width: 40rem;
-    height: 38rem;
+    width: 45rem;
+    height: 45rem;
     border-radius: 2%;
     padding: 2rem;
 }
@@ -59,18 +59,30 @@ main {
     flex-direction: column;
     justify-content: center;
     cursor: pointer;
-
+    padding: 0.25rem 0.5rem;
   }
 
-.accordion-content-description{ 
-    height: 0;
-    color: grey; 
-    font-weight: 400; 
-    
+
+.accordion-content:focus {
+    border: 0.3rem solid #AD28EB;
+    border-radius: 1%;
+    transition: .1s ease-in-out;
+  }
+
+.accordion-content-title:hover {
+    color: #AD28EB; 
 }
 
+
+.accordion-content-description{ 
+    display: none;
+    color: grey; 
+    font-weight: 400; 
+}
+
+
 .accordion-content-description.is-open{ 
-    height: auto;
+    display: block;
 }
 
 .header-FAQS {
