@@ -81,9 +81,10 @@ main {
     margin-bottom: 1rem;
 }
 
-.svg-point {
-    cursor: pointer;
+.svg-disappear {
+    display: none;
 }
+
 
 .line-break {
     border: 1px solid #F5F5F5;
