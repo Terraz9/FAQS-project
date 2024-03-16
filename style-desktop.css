@@ -35,10 +35,12 @@ body {
 main {
     background-color: var(--white);
     width: 40rem;
-    height: 40rem;
+    height: 38rem;
     border-radius: 2%;
     padding: 2rem;
 }
+
+
 
 .presentation-FAQS {
     font-size: 2rem;
@@ -54,16 +56,37 @@ main {
 .accordion-content {
     background-color: var(--white);
     text-align: left;
-    margin: 1rem 0rem;
+    margin-top: 2rem;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
 .accordion-content-description{ 
     height: 0;
-    color:#000000; 
+    color: grey; 
     font-weight: 400; 
+    
 }
 
 .accordion-content-description.is-open{ 
     height: auto;
+}
+
+.header-FAQS {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.svg-point {
+    cursor: pointer;
+}
+
+.line-break {
+    border: 1px solid #F5F5F5;
+    margin: 1rem 0;
 }
